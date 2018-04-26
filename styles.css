@@ -1,0 +1,49 @@
+/* add your CSS here */
+
+.title /* this is the class used for the h3 heading component*/
+{
+    font-size: 26px;
+}
+/* This class name is used for the elements of UL */
+.label
+{
+    font-weight: 800;
+}
+
+/* This class is used for the paragraph */
+.description
+{
+    font-style: italic;
+}
+/* This class is used for the Ul list */
+.listType
+{
+    list-style-type: none;
+   padding-left: 0pt;
+}
+/* This class is given to the whole card div */
+.card
+{
+    border: 1px solid lightgray;
+    border-width: thin;
+    width: 300px;
+    box-shadow:8px 8px 2px 1px rgb(228, 227, 227);
+    padding: 10px;
+    background-color:#FAFAFA;
+  
+}
+/* The size of my image was bigger than 300px so this class to adjust it */
+#animalImage
+{
+    width: 300px;
+    height: 200px;
+    margin-bottom: 10px;
+}
+/* This class for the box of data describing the card */
+.cardData
+{
+    border: 1px solid lightgray;
+    padding: inherit;
+    background-color:#EEEEEE;
+    border-radius: 10px;
+}
